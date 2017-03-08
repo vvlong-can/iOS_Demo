@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492AEA8715CF87AC0033B863 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492AEA8615CF87AC0033B863 /* QLViewController.m */; };
+		494870D215C12E3B00DDE9B1 /* note.doc in Resources */ = {isa = PBXBuildFile; fileRef = 494870D115C12E3B00DDE9B1 /* note.doc */; };
+		494C770E159169D00056BF28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494C770D159169D00056BF28 /* UIKit.framework */; };
+		494C7710159169D00056BF28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494C770F159169D00056BF28 /* Foundation.framework */; };
+		494C7712159169D00056BF28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494C7711159169D00056BF28 /* CoreGraphics.framework */; };
+		494C7718159169D00056BF28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 494C7716159169D00056BF28 /* InfoPlist.strings */; };
+		494C771A159169D00056BF28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C7719159169D00056BF28 /* main.m */; };
+		494C771E159169D00056BF28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C771D159169D00056BF28 /* AppDelegate.m */; };
+		494C772F15916C540056BF28 /* 80868088汇编语言程序设计.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 494C772E15916C540056BF28 /* 80868088汇编语言程序设计.ppt */; };
+		494C773715919E6C0056BF28 /* QLviewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C773515919E6C0056BF28 /* QLviewDemo.m */; };
+		494C773815919E6C0056BF28 /* QLviewDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494C773615919E6C0056BF28 /* QLviewDemo.xib */; };
+		494C773A15919FE60056BF28 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494C773915919FE60056BF28 /* QuickLook.framework */; };
+		494C773C1591AFEC0056BF28 /* chrome.html in Resources */ = {isa = PBXBuildFile; fileRef = 494C773B1591AFEC0056BF28 /* chrome.html */; };
+		494C77441591B2110056BF28 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 494C77431591B2110056BF28 /* readme.txt */; };
+		495BA4CF15D20BE300FD4003 /* test.docx in Resources */ = {isa = PBXBuildFile; fileRef = 495BA4CC15D20BE300FD4003 /* test.docx */; };
+		495BA4D015D20BE300FD4003 /* test.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 495BA4CD15D20BE300FD4003 /* test.xlsx */; };
+		495BA4D115D20BE300FD4003 /* test.xls in Resources */ = {isa = PBXBuildFile; fileRef = 495BA4CE15D20BE300FD4003 /* test.xls */; };
+		49C4C1B615C28DD70025736B /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C4C1B515C28DD70025736B /* box.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		492AEA8515CF87AC0033B863 /* QLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLViewController.h; sourceTree = "<group>"; };
+		492AEA8615CF87AC0033B863 /* QLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLViewController.m; sourceTree = "<group>"; };
+		494870D115C12E3B00DDE9B1 /* note.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = note.doc; sourceTree = "<group>"; };
+		494C7709159169D00056BF28 /* OpenOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C770D159169D00056BF28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		494C770F159169D00056BF28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		494C7711159169D00056BF28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		494C7715159169D00056BF28 /* OpenOffice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenOffice-Info.plist"; sourceTree = "<group>"; };
+		494C7717159169D00056BF28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		494C7719159169D00056BF28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494C771B159169D00056BF28 /* OpenOffice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenOffice-Prefix.pch"; sourceTree = "<group>"; };
+		494C771C159169D00056BF28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		494C771D159169D00056BF28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		494C772E15916C540056BF28 /* 80868088汇编语言程序设计.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "80868088汇编语言程序设计.ppt"; sourceTree = "<group>"; };
+		494C773415919E6C0056BF28 /* QLviewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLviewDemo.h; sourceTree = "<group>"; };
+		494C773515919E6C0056BF28 /* QLviewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLviewDemo.m; sourceTree = "<group>"; };
+		494C773615919E6C0056BF28 /* QLviewDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QLviewDemo.xib; sourceTree = "<group>"; };
+		494C773915919FE60056BF28 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		494C773B1591AFEC0056BF28 /* chrome.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = chrome.html; sourceTree = "<group>"; };
+		494C77431591B2110056BF28 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		495BA4CC15D20BE300FD4003 /* test.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.docx; sourceTree = "<group>"; };
+		495BA4CD15D20BE300FD4003 /* test.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.xlsx; sourceTree = "<group>"; };
+		495BA4CE15D20BE300FD4003 /* test.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.xls; sourceTree = "<group>"; };
+		49C4C1B515C28DD70025736B /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494C7706159169D00056BF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C773A15919FE60056BF28 /* QuickLook.framework in Frameworks */,
+				494C770E159169D00056BF28 /* UIKit.framework in Frameworks */,
+				494C7710159169D00056BF28 /* Foundation.framework in Frameworks */,
+				494C7712159169D00056BF28 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494C76FE159169D00056BF28 = {
+			isa = PBXGroup;
+			children = (
+				494C7713159169D00056BF28 /* OpenOffice */,
+				494C770C159169D00056BF28 /* Frameworks */,
+				494C770A159169D00056BF28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494C770A159169D00056BF28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494C7709159169D00056BF28 /* OpenOffice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494C770C159169D00056BF28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494C773915919FE60056BF28 /* QuickLook.framework */,
+				494C770D159169D00056BF28 /* UIKit.framework */,
+				494C770F159169D00056BF28 /* Foundation.framework */,
+				494C7711159169D00056BF28 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		494C7713159169D00056BF28 /* OpenOffice */ = {
+			isa = PBXGroup;
+			children = (
+				494C7724159169DB0056BF28 /* UI */,
+				494C771C159169D00056BF28 /* AppDelegate.h */,
+				494C771D159169D00056BF28 /* AppDelegate.m */,
+				494C7714159169D00056BF28 /* Supporting Files */,
+			);
+			path = OpenOffice;
+			sourceTree = "<group>";
+		};
+		494C7714159169D00056BF28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494870D115C12E3B00DDE9B1 /* note.doc */,
+				494C77431591B2110056BF28 /* readme.txt */,
+				494C772E15916C540056BF28 /* 80868088汇编语言程序设计.ppt */,
+				495BA4CC15D20BE300FD4003 /* test.docx */,
+				495BA4CD15D20BE300FD4003 /* test.xlsx */,
+				495BA4CE15D20BE300FD4003 /* test.xls */,
+				494C773B1591AFEC0056BF28 /* chrome.html */,
+				494C7715159169D00056BF28 /* OpenOffice-Info.plist */,
+				494C7716159169D00056BF28 /* InfoPlist.strings */,
+				494C7719159169D00056BF28 /* main.m */,
+				494C771B159169D00056BF28 /* OpenOffice-Prefix.pch */,
+				49C4C1B515C28DD70025736B /* box.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		494C7724159169DB0056BF28 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				494C773415919E6C0056BF28 /* QLviewDemo.h */,
+				494C773515919E6C0056BF28 /* QLviewDemo.m */,
+				494C773615919E6C0056BF28 /* QLviewDemo.xib */,
+				492AEA8515CF87AC0033B863 /* QLViewController.h */,
+				492AEA8615CF87AC0033B863 /* QLViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494C7708159169D00056BF28 /* OpenOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494C7721159169D00056BF28 /* Build configuration list for PBXNativeTarget "OpenOffice" */;
+			buildPhases = (
+				494C7705159169D00056BF28 /* Sources */,
+				494C7706159169D00056BF28 /* Frameworks */,
+				494C7707159169D00056BF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenOffice;
+			productName = OpenOffice;
+			productReference = 494C7709159169D00056BF28 /* OpenOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494C7700159169D00056BF28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = willonboy.tk;
+			};
+			buildConfigurationList = 494C7703159169D00056BF28 /* Build configuration list for PBXProject "OpenOffice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 494C76FE159169D00056BF28;
+			productRefGroup = 494C770A159169D00056BF28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494C7708159169D00056BF28 /* OpenOffice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494C7707159169D00056BF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C7718159169D00056BF28 /* InfoPlist.strings in Resources */,
+				494C772F15916C540056BF28 /* 80868088汇编语言程序设计.ppt in Resources */,
+				494C773815919E6C0056BF28 /* QLviewDemo.xib in Resources */,
+				494C773C1591AFEC0056BF28 /* chrome.html in Resources */,
+				494C77441591B2110056BF28 /* readme.txt in Resources */,
+				494870D215C12E3B00DDE9B1 /* note.doc in Resources */,
+				49C4C1B615C28DD70025736B /* box.png in Resources */,
+				495BA4CF15D20BE300FD4003 /* test.docx in Resources */,
+				495BA4D015D20BE300FD4003 /* test.xlsx in Resources */,
+				495BA4D115D20BE300FD4003 /* test.xls in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494C7705159169D00056BF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C771A159169D00056BF28 /* main.m in Sources */,
+				494C771E159169D00056BF28 /* AppDelegate.m in Sources */,
+				494C773715919E6C0056BF28 /* QLviewDemo.m in Sources */,
+				492AEA8715CF87AC0033B863 /* QLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		494C7716159169D00056BF28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494C7717159169D00056BF28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494C771F159169D00056BF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		494C7720159169D00056BF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494C7722159169D00056BF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: trojan zhang (62T7LX36NS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: trojan zhang (62T7LX36NS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenOffice/OpenOffice-Prefix.pch";
+				INFOPLIST_FILE = "OpenOffice/OpenOffice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		494C7723159169D00056BF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: trojan zhang (62T7LX36NS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: trojan zhang (62T7LX36NS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenOffice/OpenOffice-Prefix.pch";
+				INFOPLIST_FILE = "OpenOffice/OpenOffice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494C7703159169D00056BF28 /* Build configuration list for PBXProject "OpenOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C771F159169D00056BF28 /* Debug */,
+				494C7720159169D00056BF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494C7721159169D00056BF28 /* Build configuration list for PBXNativeTarget "OpenOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C7722159169D00056BF28 /* Debug */,
+				494C7723159169D00056BF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494C7700159169D00056BF28 /* Project object */;
+}
