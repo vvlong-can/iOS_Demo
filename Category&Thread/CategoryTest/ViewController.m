@@ -46,6 +46,12 @@
     [gcdBtn setTitle:@"GCD" forState:UIControlStateNormal];
     [gcdBtn addTarget:self action:@selector(clickGCD) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:gcdBtn];
+    
+    UIButton *lockBtn = [[UIButton alloc] initWithFrame:CGRectMake(50, 400, 80, 50)];
+    [lockBtn setBackgroundColor:[UIColor redColor]];
+    [lockBtn setTitle:@"deadLock" forState:UIControlStateNormal];
+    [lockBtn addTarget:self action:@selector(deadLock) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:lockBtn];
 }
 #pragma mark - GCD Test
 -(void)clickGCD {
@@ -99,7 +105,70 @@
         [NSThread sleepForTimeInterval:2];
         NSLog(@"end 3");
     });
+    
+    
+    ///GCD同步若干个异步调用
+    ///使用Dispatch Group追加block到Global Group Queue,这些block如果全部执行完毕，就会执行Main Dispatch Queue中的结束处理的block。
+    dispatch_queue_t queue1 = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_group_t group = dispatch_group_create();
+    dispatch_group_async(group, queue1, ^{
+        /*加载图片1 */
+        NSLog(@"load 1");
+    });
+    dispatch_group_async(group, queue1, ^{
+        /*加载图片2 */
+        NSLog(@"load 2");
+    });
+    dispatch_group_async(group, queue1, ^{
+        /*加载图片3 */
+        NSLog(@"load 3");
+    });
+    dispatch_group_notify(group, dispatch_get_main_queue(), ^{
+        // 合并图片
+        NSLog(@"end 4");
+    });
+    
+    
+    ///YXY旧的登录接口+新的获取tag的接口  ==> 两个请求成功后才返回一个登录成功给用户 以确保正常功能和推送功能
+    dispatch_queue_t queue2 = dispatch_queue_create("testBarrier", DISPATCH_QUEUE_CONCURRENT);
+    
+    dispatch_group_async(group, queue2, ^{
+        /*加载图片1 */
+        NSLog(@"111");
+    });
+    dispatch_group_async(group, queue2, ^{
+        /*加载图片1 */
+        NSLog(@"111");
+    });
+    dispatch_group_async(group, queue2, ^{
+        /*加载图片1 */
+        NSLog(@"111");
+    });
+    dispatch_barrier_async(queue2, ^{
+        // 写入操作会确保队列前面的操作执行完毕才开始,并会阻塞队列中后来的操作.
+        NSLog(@"222");
+    });
+
 }
+
+#pragma mark - DeadLock
+- (void)deadLock {
+    ///异步子线程与主线程中的串行队列互相等待产生死锁
+    dispatch_queue_t queue3 = dispatch_queue_create("deadQueue", DISPATCH_QUEUE_SERIAL);
+    
+    NSLog(@"之前 - %@", [NSThread currentThread]);
+    
+    dispatch_async(queue3, ^{
+        NSLog(@"sync之前 - %@", [NSThread currentThread]);
+        dispatch_sync(queue3, ^{
+            NSLog(@"sync - %@", [NSThread currentThread]);
+        });
+        NSLog(@"sync之后 - %@", [NSThread currentThread]);
+    });
+    
+    NSLog(@"之后 - %@", [NSThread currentThread]);
+}
+
 
 
 #pragma mark - NSThread Test
